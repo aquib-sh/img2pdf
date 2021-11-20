@@ -1,3 +1,13 @@
+# IMG2PDF
+
+# Author: Shaikh Aquib
+
+# Description: This script converts n number of images present in a directory to n number
+# of PDF files. At the default settings it will resize the image to 450x450 and place it 
+# at the center a PDF of letter size.
+
+# Note: Each image is saved into it's seperate PDF file, you can tweak this behaviour easily
+
 import os
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import Image
